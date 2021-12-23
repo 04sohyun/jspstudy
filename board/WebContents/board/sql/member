@@ -1,0 +1,16 @@
+drop table member if exists member;
+create table member(
+id varchar(10) primary key,
+password varchar(10) not null,
+name varchar(10) not null,
+gender varchar(4),
+birth varchar(10),
+mail varchar(30),
+phone varchar(20),
+zipcode varchar(5),
+roadAddress varchar(100),
+jibunAddress varchar(100),
+detailAddress varchar(100),
+extraAddress varchar(100),
+register_day varchar(50)
+);
