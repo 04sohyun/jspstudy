@@ -22,6 +22,7 @@
 					<li class="nav-item"><a class="nav-link" href="<c:url value='updateMember.jsp'/>">회원 수정</a></li>
 				</c:otherwise>
 			</c:choose>
+			<li class="nav-item"><a class="nav-link" href="<c:url value="BoardListAction.do?pageNum=1"/>">게시판</a>
 		</div>
 		</div>
 	</div>
